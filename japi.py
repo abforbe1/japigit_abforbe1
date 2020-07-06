@@ -33,4 +33,6 @@ def main():
     for dict in stock_dictionaries:
         print('The current price of ' + dict['Global Quote']['01. symbol'] + ' is: ' + dict['Global Quote']['05. price'])
 
+    print('Stock Quotes retrieved successfully!')
+
 main()
